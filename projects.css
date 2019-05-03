@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:700);
+@font-face {
+    font-family: "IranSans";
+    src:url('fonts/IRANSansWeb.woff') format('woff');
+}
+
+body {
+    font-family: 'IranSans', sans-serif;
+    padding-top: 2em;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+}
+html, body {
+    height: 100%;
+}
+
+.iconContainer{
+    margin-top: 10%;
+}
+
+#back {
+    opacity: .375;
+    width: 65px;
+    height: 65px;
+    border-radius: 80%;
+    padding: 20px 12px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    text-decoration: none;
+    background: orange;
+    color: white;
+}
+#back:hover {
+    transition: 0.25s;
+    opacity: 0.7;
+    -webkit-transform: scale(1.0925);
+    transform: scale(1.0925);
+}
+
+/****************    Weeeeeeeeeeeeeeebbbbb  /start**************/
+.myCircle-container-web {
+    position: relative;
+    perspective: 1000;
+    margin: 0 auto;
+}
+
+.myCircle-container-web:hover .myCircle-web {
+    transform: rotate3d(45, 45, 0, 180deg);
+}
+
+.myCircle-container-web:hover .outer-ring-web {
+    transform: rotate3d(45, 0, 0, 180deg);
+}
+
+.myCircle-container-web:hover .outer-outer-ring-web {
+    transform: rotate3d(0, 45, 0, 180deg);
+}
+
+.myCircle-container-web, .front-web, .back-web {
+    width: 175px;
+    height: 175px;
+    background-color: rgba(0,0,0,0);
+}
+
+.myCircle-web, .outer-ring-web, .outer-outer-ring-web {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.myCircle-web {
+    position: relative;
+    width: 175px;
+    height: 175px;
+}
+
+.front-web, .back-web {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front-web {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.front-web p {
+    margin-top: 1.2em;
+    font-family: cabin, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    color: #c02227;
+}
+
+.back-web {
+    transform: rotate3d(45,45,0,180deg);
+    background-color: #fff;
+}
+
+.back-logo-web {
+    font-size: 6em;
+    color: #c02227;
+    width: 60%;
+    display: block;
+    margin: 27% 20%;
+}
+
+.outer-ring-web {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 195px;
+    height: 195px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.outer-outer-ring-web {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 211px;
+    height: 211px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+/****************    Weeeeeeeeeeeeeeebbbbb  /end**************/
+
+
+
+/****************    LooooooooGoooooooo  /start**************/
+.myCircle-container-logo {
+    position: relative;
+    perspective: 1000;
+    margin: 0 auto;
+}
+
+.myCircle-container-logo:hover .myCircle-logo {
+    transform: rotate3d(45, 45, 0, 180deg);
+}
+
+.myCircle-container-logo:hover .outer-ring-logo {
+    transform: rotate3d(45, 0, 0, 180deg);
+}
+
+.myCircle-container-logo:hover .outer-outer-ring-logo {
+    transform: rotate3d(0, 45, 0, 180deg);
+}
+
+.myCircle-container-logo, .front-logo, .back-logo {
+    width: 175px;
+    height: 175px;
+    background-color: rgba(0,0,0,0);
+}
+
+.myCircle-logo, .outer-ring-logo, .outer-outer-ring-logo {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.myCircle-logo {
+    position: relative;
+    width: 175px;
+    height: 175px;
+}
+
+.front-logo, .back-logo {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front-logo {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.front-logo p {
+    margin-top: 1.2em;
+    font-family: cabin, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    color: #c02227;
+}
+
+.back-logo {
+    transform: rotate3d(45,45,0,180deg);
+    background-color: #fff;
+}
+
+.back-logo-logo {
+    font-size: 6em;
+    color: #c02227;
+    width: 60%;
+    display: block;
+    margin: 27%;
+}
+
+.outer-ring-logo {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 195px;
+    height: 195px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.outer-outer-ring-logo {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 211px;
+    height: 211px;
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+/****************    LooooooooGoooooooo  /end**************/

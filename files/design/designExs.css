@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "IranSans";
+    src:url('../../fonts/IRANSansWeb.woff') format('woff');
+}
+
+body {
+    font-family: 'IranSans', sans-serif;
+    padding-top: 2em;
+    background-color: #1a72ba;
+}
+
+#back {
+    opacity: .375;
+    width: 65px;
+    height: 65px;
+    border-radius: 80%;
+    padding: 20px 12px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+    text-decoration: none;
+    background: orange;
+    color: white;
+}
+#back:hover {
+    transition: 0.25s;
+    opacity: 0.7;
+    -webkit-transform: scale(1.0925);
+    transform: scale(1.0925);
+}
+.btn-large:hover{
+    color: #c02227;
+    font-size: 1.1em;
+}
+
+#design{
+    width: 40%;
+    height: 40%;
+}
+
+#information{
+    width: 45%;
+    height: 40%;
+    border: 1px groove orange;
+    border-left: 6px solid darkorange;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fbffc2;
+    text-align: right;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AmirReza CV</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--<link href="assetss/googleApi.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="assetss/allCss.css" >-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="assetss/font-awsome.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="img/favicon.ico"  rel="shortcut icon" />
+</head>
+<body>
+<div class="frame" >
+    <div class="center">
+        <i class="fas fa-user-check" style="display: none" id="check"></i>
+        <div class="dot-1"></div>
+        <div class="dot-2"></div>
+        <div class="dot-3"></div>
+    </div>
+</div>
+
+<div id="nav-container">
+    <!-- mobile navigaation -->
+    <div id="nav">
+        <a id="link-hero"   href="#hero"  class="link"></a>
+        <a id="link-one"    href="#one"   class="link"></a>
+        <a id="link-two"    href="#two"   class="link"></a>
+        <a id="link-three"  href="#three" class="link"></a>
+        <a id="link-four"  href="#four" class="link"></a>
+    </div>
+    <!-- desktop navigaation -->
+    <ul id="menu">
+        <li data-menuanchor="firstPage"><a id="menu-hero" href="#firstPage"></a></li>
+        <li data-menuanchor="secondPage"><a id="menu-one" href="#secondPage"></a></li>
+        <li data-menuanchor="3rdPage"><a id="menu-two" href="#3rdPage"></a></li>
+        <li data-menuanchor="4thpage"><a id="menu-three" href="#4thpage"></a></li>
+        <li data-menuanchor="5thpage"><a id="menu-four" href="#5thpage"></a></li>
+    </ul>
+</div>
+
+    <a href="downloads/RESUME_SAFEHIAN_FRONTEND.pdf" target="_blank"><div id="resume"> دانلود رزومه </div></a>
+    <a href="projects.html" target="_blank"><div id="ex"> نمونه کار ها </div></a>
+
+<div id="fullpage">
+    <div id="hero"  class="section">
+        <div style="height: 200px"><img src="img/avatar.jpg" alt="Avatar" id="avatar" style="width:200px; display: none"></div>
+        <h5 id="hello" style="display: none"> سلام ! </h5>
+        <h6 id="onStart" style="padding: 0 3%"></h6>
+        <p id="goDown" style="visibility: hidden;"> برای ادامه آشنایی بریم پایین تر <i class="far fa-laugh-wink" id="laugh" style="color: #feff94; font-size: 1.5em"></i></p>
+
+        <div class="arrow-box">
+            <a href="#secondPage"><div class="arrow" ></div></a>
+        </div>
+    </div><!-- end hero -->
+    <div id="one"   class="section">
+        <h5>خب اول یکم در مورد علایقم براتون میگم ...</h5>
+        <p style="margin: 2% 0">
+            اولا چیزی که مشخصه اینه که من از برنامه نویسی خیلی خوشم میاد ،
+            <br>
+            البته که برنامه نویسی وب بیشتر !
+            <br>
+            اما هر جا چالش و الگوریتم بیشتر باشه جذابیت  موضوع میره بالاتر
+            <br>
+            من بیشتر Front-end کار کردم و Back-end رو خوب میشناسم.
+        </p>
+        <div class="icon-box" style="padding: 2% 0">
+            <div class="icon"><i class="fas fa-code"></i></div>
+            <div class="icon"><i class="fas fa-user-secret"></i></div>
+            <div class="icon"><i class="fas fa-bug"></i></div>
+        </div>
+        <div class="arrow-box">
+            <a href="#3rdPage"><div class="arrow"></div></a>
+        </div>
+    </div><!-- end one -->
+    <div id="two" class="section">
+        <h5 id="maharat">حالا نوبت میرسه به مهارت ها و توانایی هام !</h5>
+        <p id="skillState">
+            خب من به جای این که در مورد مهارت هام بنویسم با رسم شکل توضیح دادمشون ^^
+        </p>
+        <div class="icon-box" id="skillCircles" style="max-height: 80%">
+            <div class="html circle iconSkill">
+                <strong></strong>
+                <span><toosh>HTML,CSS,JS</toosh></span>
+                <span style="font-size: 30px" ><i class="fab fa-js-square"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-html5"></i>  </span>
+            </div>
+
+            <div class="jquery circle iconSkill ">
+                <strong></strong>
+                <span><toosh>JQuery</toosh></span>
+                <span style="font-size: 30px"><i class="fab fa-audible"></i></span>
+            </div>
+
+            <div class="bootstrap circle iconSkill ">
+                <strong></strong>
+                <span><toosh>Bootstrap</toosh></span>
+                <span style="font-size: 30px"><i class="fas fa-clone"></i></span>
+            </div>
+
+            <div class="frameWork circle iconSkill ">
+                <strong></strong>
+                <span><toosh>Materialize</toosh></span>
+                <span style="font-size: 30px"><i class="fa fa-google-wallet"></i></span>
+            </div>
+
+            <div class="angular circle iconSkill ">
+                <strong></strong>
+                <span><toosh>AngularJS</toosh></span>
+                <span style="font-size: 30px"><i class="fab fa-angular"></i></span>
+            </div>
+
+            <div class="node circle iconSkill ">
+                <strong></strong>
+                <span><toosh>Node.JS</toosh></span>
+                <span style="font-size: 30px"><i class="fab fa-node-js"></i></span>
+            </div>
+
+
+        </div>
+
+        <div class="arrow-box">
+            <a href="#4thpage"><div class="arrow"></div></a>
+        </div>
+    </div><!-- end two -->
+    <div id="three"  class="section">
+        <div class="three-text-wrapper">
+            <h5 style="padding: 0 3%">در مورد تحصیلات و محل زندگیمم باید براتون بگم که</h5>
+            <p>
+                من دبیرستانم رو  <a id="tizhooshan">سمپاد</a> نیشابور گذروندم !
+                <br>
+                 برا دانشگاه هم اومدم  <a id="beheshti"> شهید بهشتی</a> تهران علوم کامپیوتر میخونم ،
+                <br>
+                و الآن هم طرفای نیاوران میشینم.
+            </p>
+            <div id="eduSVG">
+                <img src="img/sbu.svg" alt="sampad" id="sbu" class="iconEdu col s6 m6 l6  svg">
+                <img src="img/sampad.svg" alt="sampad" id="sampad" class="iconEdu col s6 m6 l6 svg">
+            </div>
+        </div>
+
+        <div class="arrow-box">
+            <a href="#lastPage"><div class="arrow"></div></a>
+        </div>
+    </div><!-- end three -->
+    <div id="footer"  class="section">
+        <div >
+            <h5 style="padding: 0 3%"><p> خوشحالم که تا اینجا اومدین ! </p></h5>
+            <p>
+                امیدوارم سرتون درد نیاورده باشم‌!
+                چن تا لینک ارتباط هم میذارم که اگه خواستین با هم بیشتر آشنا شیم
+                یا کار کنیم !!
+            </p>
+                <br>
+
+            <div class="container" id="info">
+                <a href="mailto:safehian_amirreza@yahoo.com"> <div  style="margin: 0.5% 0;">  <matn>  safehian_amirreza@yahoo.com</matn>  <i class="rangiSho fas fa-envelope" ></i></div></a>
+                <a href="tel:+989156856323"><div  style="margin: 0.5% 0 ;">  <matn>  6323 685 915 98+</matn>  <i class="rangiSho fas fa-phone-square"></i></div></a>
+                <a href="http://github.com/safeamiiir/blog_project/" target="_blank"><div  style="margin: 0.5% 0;">  <matn>  github.com/safeamiiir</matn>  <i class="rangiSho fab fa-github-square"></i></div></a>
+                <a href="https://www.linkedin.com/in/safehianamirreza/" target="_blank"><div  style="margin: 0.5% 0;">  <matn>  linkedin.com/in/safeamiiir</matn>  <i class="rangiSho fab fa-linkedin"></i></div></a>
+            </div>
+            <br>
+            <b id="green"> روزتون سبز ^^</b>
+        </div>
+    </div><!-- end three -->
+</div>
+
+
+
+</body>
+
+
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/jquery.fullPage.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TimelineMax.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>-->
+<!--<script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>-->
+
+
+<script src="assetss/jquery.js"></script>
+<script src="assetss/jqueryFullpage.js"></script>
+<script src="assetss/scrollMagic.js"></script>
+<script src="assetss/addIndicators.js"></script>
+<script src="assetss/tweenMax.js"></script>
+<script src="assetss/timeLineMax.js"></script>
+<script src="assetss/CssPlugin.js"></script>
+<script src="assetss/ScrollToPlugin.js"></script>
+<script src="assetss/animation.js"></script>
+<script src="assetss/circle-progress.js.js"></script>
+
+<script src="index.js"></script>
+</html>
